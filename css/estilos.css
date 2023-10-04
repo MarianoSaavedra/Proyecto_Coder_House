@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap');
+
+/* Reseteo de valores */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prata', serif;
+}
+
+/* Estilos header */
+
+.headerNav{
+    box-shadow: -2px 8px 63px -10px rgba(207,206,144,0.89);
+}
+
+.active{
+    font-weight: bolder;    
+}
+
+/* Fin estilos header */
+
+/* Estilos main INDEX */
+.main{
+    background-color: whitesmoke;
+    .sectionUno{
+        >h1{
+            height: 95vh;
+            font-size: 5rem;
+        }
+    }
+    .sectionDos{
+        >h2{
+            font-size: 3.5rem;
+            font-weight: bolder;
+        }
+        >a img{
+            box-shadow: -2px 8px 25px -10px rgba(0, 0, 0, 0.89);
+        }  
+    }
+    .sectionTres{
+        >h2{
+            font-size: 3.5rem;
+            font-weight: bolder;
+        }
+        >h3{
+            font-size: 3rem;
+        }
+        >article div h2{
+            font-size: 1.5rem;                                   
+        }
+        >article div ul{
+            column-count: 2;
+            text-align: initial;
+            line-height: 2rem;
+        }
+    }
+    .sectionCuatro{
+        >h2{
+            font-size: 3.5rem;
+            font-weight: bolder;
+        }
+        >form div{
+            >[type="reset"]{
+                background-color: rgba(150, 14, 14, 0.687);
+            }
+            >[type="submit"]{
+                background-color: rgba(31, 235, 59, 0.744);
+            }  
+        } 
+    }
+}
+
+/* Fin estilos main INDEX */
+
+.footer{
+    >ul{
+        list-style-type: none;
+        >li{
+            >a{
+                color: whitesmoke;
+                text-decoration: none;
+            }
+        }
+    }
+    >small{
+        color: whitesmoke;
+    }
+}
+
+/* Fin estilos Index */
+
+/* Inicio estilos Productos */
+
+.h1_Productos{
+    font-size: 4rem;
+}
+
+.carruselVisible{
+    display: none;
+}
+
+/* Fin estilos Productos */
+
+/* Inicio estilos Recetas */
+
+.main_Recetas{
+    width: 80%;
+    margin: 0 auto;
+    .h1_Recetas{
+        width: 100%;
+        font-size: 6rem;
+        padding: 25px;
+        text-align: center;
+    }
+    .section_Recetas{
+        display: flex;
+        flex-wrap: wrap;
+        > h2{
+            width: 100%;
+            font-size: 3rem;
+            text-align: center;
+        }
+        > article{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid grey;
+            align-items: center;
+            background-image: url(../assets/img/old-2012064_640.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            > h1{
+                font-size: 2rem;
+                text-align: center;
+            }
+            > div{
+                width: 100%;
+                display: flex;
+                justify-content: space-around;
+                margin: 25px 0;
+                > div ul li{
+                    margin: 10px 0;
+                }
+            }
+            > ol{
+                width: 95%;
+                font-size: 0.9rem;
+                column-gap: 25px;
+                > li{
+                    margin: 10px;
+                }
+            }
+            > iframe{
+                margin: 25px;
+            }
+        }
+    }
+}
+
+/* Fin estilos Recetas */
+
+/* Inicio estilos Historia */
+
+.main_Historia{
+    .section_Historia{
+        width: 50%;
+        margin: 0 auto;
+        padding: 25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .h1_Historia{
+            width: 100%;
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        > p, iframe, img{
+            margin: 25px;
+            line-height: 2rem;
+        }
+    }
+}
+
+/* Fin estilos Historia */
+
+/* Inicio estilos Contacto */
+
+
+
+/* Fin estilos Contacto */
+
+
+@media (min-width: 768px){
+    .main{
+        .sectionTres{
+            >article div ul{
+                column-count: 1;
+                text-align: justify;
+            }
+        }
+    }
+        
+}
+
+@media (min-width: 1200px) {
+    .main{
+        .sectionUno{
+            >h1{
+                height: 50vh;
+            }
+        }
+        .sectionDos{
+            >a{
+                gap: 3rem !important;
+                >img{
+                    box-shadow: initial;
+                    border: 3px solid rgba(181, 160, 40, 0.619) !important;
+                }
+    
+            }
+        }
+    }
+    .sectionProductosVisible{
+        display: none;
+    }
+    .carruselVisible{
+        display: flex;
+        height: 70vh;
+    }
+    
+}
+
+

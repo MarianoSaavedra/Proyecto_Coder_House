@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Molinos Tradicion</title>
+        <script src="https://kit.fontawesome.com/81120f3d24.js" crossorigin="anonymous"></script>
+        
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <link rel="icon" type="image/png" href="favicon.ico">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <!-- [Headear] - contiene el Logo de la empresa y la navegacion principal del sitioweb -->
+            <header class="row header sticky-top">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-1 headerNav">
+                    <div class="container-fluid flex-lg-column">
+                        <a href="./index.html">
+                            <img src="./assets/img/molino.png" alt="Molinos Tradicion">
+                        </a>  
+                        <a class="navbar-brand me-0" href="./index.html">Molinos Tradicion</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link noActive" href="./pages/productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link noActive" href="./pages/recetas.html">Recetas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link noActive" href="./pages/historia.html">Historia</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link noActive" href="./pages/contacto.html">Nosotros</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- [Main] - contiene 4 section
+                1ra section, Slogan de la empresa.
+                2da section, Fotos de productos que te lleva a la pagina /productos.
+                3ra section, Dos articulos con recetas y una imagen ilustrativa. Boton a la pagina /recetas
+                4ta section, Formulario de trabajo.
+            -->
+            <main class="row main">
+                <section class="col-12 sectionUno">
+                    <h1 class="row text-center align-content-center"><span class="col-12">El Sabor</span> <span class="col-12">de la</span> <span class="col-12">Tradicion</span></h1>
+                </section>
+
+                <section class="col-sm-12 m-auto sectionDos py-5">
+                    <h2 class="col-12 text-center mb-5">Nuestros Productos</h2>
+
+                    <a href="./pages/productos.html" class="row  justify-content-center gap-4">
+                        <img src="./assets/img/Aceite.png" alt="Aceite Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
+                        <img src="./assets/img/Fideos.png" alt="Fideos Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
+                        <img src="./assets/img/Harina.png" alt="Harina Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
+                        <img src="./assets/img/PanLactal.png" alt="Pan Lactal Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
+                        <img src="./assets/img/PanRallado.png" alt="Pan Rallado Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
+                        <img src="./assets/img/Tallarines.png" alt="Tallarines Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
+                    </a>
+                </section>
+
+                <section class="col-sm-12 sectionTres text-center">
+                    <h2>Nuestras Recetas</h2>
+                    
+                    <h3>Saladas</h3>
+
+                    <article class="row my-5">
+                        <h1 class="col-12">Pizza Casera</h1>
+                        <div class="col-12 col-md-6 m-auto">
+                            <h2 class="my-4">Ingredientes</h2>
+                            <ul class="w-100 m-md-auto">
+                                <li>1/2 kilo de harina 000</li>
+                                <li>25 gr de pan de levadura fresco</li>
+                                <li>1/2 cucharada de sal</li>
+                                <li>4 cdas de aceite de oliva</li>
+                                <li>1 cda de azúcar</li>
+                                <li>1 taza de agua tibia</li>
+                            </ul>
+                        </div>
+                        <div class="col-9 col-md-6 col-lg-4 m-auto">
+                            <img src="./assets/img/PizzaCasera.jpg" alt="Pizza Casera" class="w-100 rounded-pill">
+                        </div>              
+                    </article>
+
+
+                    <h3>Dulces</h3>
+
+                    <article class="row my-5">
+                        <h1 class="col-12">Torta Tres Chocolates</h1>
+                        <div class="col-12 col-md-6 m-auto">
+                            <h2 class="my-4">Ingredientes</h2>
+                            <ul class="w-100 m-md-auto">
+                                <li>200 g de chocolate negro (70% de cacao)</li>
+                                <li>200 g de chocolate con leche</li>
+                                <li>200 g de chocolate blanco</li>
+                                <li>500 ml de crema (nata) 35% de grasa</li>
+                                <li>150 g de azúcar</li>
+                                <li>20 g de gelatina sin sabor (4 sobres)</li>
+                                <li>100 ml de agua</li>
+                                <li>500 ml de leche entera</li>
+                                <li>1 paquete de galletitas (galletas) tipo maría</li>
+                                <li>150 g de manteca (mantequilla)</li>
+                            </ul>
+                        </div>
+                        <div class="col-9 col-md-6 col-lg-4 m-auto">
+                            <img src="./assets/img/TortaTresChocolates.jpg" alt="Torta Tres Chocolates" class="w-100 rounded-pill">
+                        </div>
+                    </article>
+                </section>
+
+                <section class="col-sm-12 col-lg-8 m-auto sectionCuatro">
+                    <h2 class="text-center">Trabaja con Nosotros</h2>
+
+                    <form action="./pages/404.html" class="row w-50 m-auto text-center gap-2 py-5">
+                        <label for="nombre" class="col-sm-12">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required placeholder="Molinos" class="col-sm-12 text-center">
+                        <label for="apellido" class="col-sm-12">Apellido</label>
+                        <input type="text" name="apellido" id="apellido" required placeholder="Tradicion" class="col-sm-12 text-center">
+                        <label for="email" class="col-sm-12">Correo electronico</label>
+                        <input type="email" name="email" id="email" required placeholder="contrataciones@molinostradicion.com.ar" class="col-sm-12 text-center">
+                        <label for="telefono" class="col-sm-12">Telefono</label>
+                        <input type="tel" name="telefono" id="telefono" required placeholder="0800-333-872342466 (Tradicion)" class="col-sm-12 text-center">
+                        <label for="puesto" class="col-sm-12">Puesto</label>
+                        <select name="puesto" id="puesto" required>
+                            <option value="">Elegir</option>
+                            <option value="">Sistemas</option>
+                            <option value="">Marketing</option>
+                            <option value="">Vendedor</option>
+                            <option value="">Gerente</option>
+                            <option value="">Recursos Humanos</option>
+                        </select>
+                        <textarea name="" id="" cols="50" rows="10" placeholder="Contanos un poco mas sobre vos" required   ></textarea>
+                        <div class="d-flex justify-content-around py-5">
+                            <input type="reset" value="Limpiar" class="rounded-pill p-3">
+                            <input type="submit" value="Enviar" class="rounded-pill p-3">
+                        </div>
+                    </form>
+                </section>
+            </main>
+            <!-- [Footer] Informacion de redes sociales, derechos etc -->
+            <footer class="row bg-dark footer">
+                <a href="" class="col-4 text-center py-4 m-auto">
+                    <img src="./assets/img/molino.png" alt="">  
+                </a>     
+                
+                <ul class="col-4 text-center py-4">
+                    <li><a href="./index.html"><small>Inicio</small></a></li>
+                    <li><a href="./pages/productos.html"><small>Productos</small></a></li>
+                    <li><a href="./pages/recetas.html"><small>Recetas</small></a></li>
+                    <li><a href="./pages/historia.html"><small>Historia</small></a></li>
+                    <li><a href="./pages/contacto.html"><small>Contacto</small></a></li>          
+                </ul>
+
+                <ul class="col-4 text-center py-4">
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>            
+                </ul>
+                <small class="col-12 text-center py-2">&copy; 2023 Molinos Tradicion S.A. Todos los derechos reservados.</small>
+            </footer>
+        </div>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

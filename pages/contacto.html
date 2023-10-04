@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto - Nombre de la Marca</title>
+        <script src="https://kit.fontawesome.com/81120f3d24.js" crossorigin="anonymous"></script>
+
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/estilos.css">
+        <link rel="icon" type="image/png" href="../favicon.ico">
+    </head>
+    <body>
+        <div class="container-fluid">
+            <header class="row header sticky-top">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom border-1 headerNav">
+                    <div class="container-fluid flex-lg-column">
+                        <a href="../index.html"><img src="../assets/img/molino.png" alt="El sabor de la Tradicion"></a>  
+                        <a class="navbar-brand me-0" href="../index.html">Molinos Tradicion</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
+                                <li class="nav-item">
+                                    <a class="nav-link noActive" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link noActive" href="./productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link noActive" href="./recetas.html">Recetas</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link noActive" href="./historia.html">Historia</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" href="./contacto.html">Nosotros</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            <main>
+                <section class="sectionCuatro">
+                    <h1>Contacto</h1>
+                    <form action="404.html">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" required placeholder="Molinos">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido" required placeholder="Tradicion">
+                        <label for="email">Correo electronico</label>
+                        <input type="email" name="email" id="email" required placeholder="contrataciones@molinostradicion.com.ar">
+                        <label for="telefono">Telefono</label>
+                        <input type="tel" name="telefono" id="telefono" required placeholder="0800-333-872342466 (Tradicion)">
+                        <label for="consulta">Consulta</label>
+                        <select name="consulta" id="consulta" required>
+                            <option value="">Elegir</option>
+                            <option value="">Administracion</option>
+                            <option value="">Facturacion</option>
+                            <option value="">Proveedores</option>
+                            <option value="">Servicio al Cliente</option>
+                        </select>
+                        <textarea name="" id="" cols="50" rows="10" placeholder=""></textarea>
+                        <div>
+                            <input type="reset" value="Limpiar">
+                            <input type="submit" value="Enviar">
+                        </div>
+                    </form>
+                </section>
+            </main>
+            <footer class="row bg-dark footer">
+                <a href="" class="col-4 text-center py-4 m-auto">
+                    <img src="../assets/img/molino.png" alt="">  
+                </a>     
+                
+                <ul class="col-4 text-center py-4">
+                    <li><a href="../index.html"><small>Inicio</small></a></li>
+                    <li><a href="./productos.html"><small>Productos</small></a></li>
+                    <li><a href="./recetas.html"><small>Recetas</small></a></li>
+                    <li><a href="./historia.html"><small>Historia</small></a></li>
+                    <li><a href="./contacto.html"><small>Contacto</small></a></li>          
+                </ul>
+
+                <ul class="col-4 text-center py-4">
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+                    <li><a href="https://www.twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a></li>            
+                </ul>
+                <small class="col-12 text-center py-2">&copy; 2023 Molinos Tradicion S.A. Todos los derechos reservados.</small>
+            </footer>  
+        </div>        
+    </body>
+</html>
