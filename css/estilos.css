@@ -103,66 +103,6 @@
 
 /* Fin estilos Productos */
 
-/* Inicio estilos Recetas */
-
-.main_Recetas{
-    width: 80%;
-    margin: 0 auto;
-    .h1_Recetas{
-        width: 100%;
-        font-size: 6rem;
-        padding: 25px;
-        text-align: center;
-    }
-    .section_Recetas{
-        display: flex;
-        flex-wrap: wrap;
-        > h2{
-            width: 100%;
-            font-size: 3rem;
-            text-align: center;
-        }
-        > article{
-            display: flex;
-            flex-direction: column;
-            padding: 10px;
-            margin: 10px;
-            border: 1px solid grey;
-            align-items: center;
-            background-image: url(../assets/img/old-2012064_640.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            > h1{
-                font-size: 2rem;
-                text-align: center;
-            }
-            > div{
-                width: 100%;
-                display: flex;
-                justify-content: space-around;
-                margin: 25px 0;
-                > div ul li{
-                    margin: 10px 0;
-                }
-            }
-            > ol{
-                width: 95%;
-                font-size: 0.9rem;
-                column-gap: 25px;
-                > li{
-                    margin: 10px;
-                }
-            }
-            > iframe{
-                margin: 25px;
-            }
-        }
-    }
-}
-
-/* Fin estilos Recetas */
-
-
 /* Inicio estilos Contacto */
 
 .contactoBotonLimpiar{
