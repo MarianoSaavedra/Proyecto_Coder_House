@@ -1,28 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Glass+Antiqua&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Young+Serif&display=swap'); 
 /* Reseteo de valores */
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Prata', serif;
+    font-family: 'Young Serif', serif
 }
 
 /* Estilos header */
 
-.headerNav{
+.headerBoxShadow{
     box-shadow: -2px 8px 63px -10px rgba(207,206,144,0.89);
 }
 
 .active{
-    font-weight: bolder;    
+    font-weight: bolder;
+    border-bottom: 3px solid gold;    
 }
+
 
 /* Fin estilos header */
 
 /* Estilos main INDEX */
-.main{
+/* .main{
     background-color: whitesmoke;
     .sectionUno{
         >h1{
@@ -74,7 +76,7 @@
 
 /* Fin estilos main INDEX */
 
-.footer{
+/* .footer{
     >ul{
         list-style-type: none;
         >li{
@@ -87,13 +89,13 @@
     >small{
         color: whitesmoke;
     }
-}
+} */
 
 /* Fin estilos Index */
 
 /* Inicio estilos Productos */
 
-.h1_Productos{
+/* .h1_Productos{
     font-size: 4rem;
 }
 
@@ -105,7 +107,7 @@
 
 /* Inicio estilos Contacto */
 
-.contactoBotonLimpiar{
+/* .contactoBotonLimpiar{
     background-color: rgba(212, 53, 53, 0.509);
 }
 
@@ -115,19 +117,19 @@
 
 /* Fin estilos Contacto */
 
-@media (min-width: 768px){
+/* @media (min-width: 768px){
     .main{
         .sectionTres{
             >article div ul{
                 column-count: 1;
                 text-align: justify;
             }
-        }
-    }
+        } */
+    /* } 
         
-}
+}  */
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .main{
         .sectionUno{
             >h1{
@@ -144,8 +146,8 @@
     
             }
         }
-    }
-    .sectionProductosVisible{
+    } */
+    /* .sectionProductosVisible{
         display: none;
     }
     .carruselVisible{
@@ -155,6 +157,4 @@
     .historiaTitulo .contactoTitulo .recetasTitulo{
         font-size: 5rem;
     }
-}
-
-
+} */
