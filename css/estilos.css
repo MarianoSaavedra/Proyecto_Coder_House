@@ -9,7 +9,9 @@
     font-family: 'Young Serif', serif
 }
 
-/* Estilos header */
+/* Estilos globales */
+
+/* Estilos Header */
 
 .headerBoxShadow{
     box-shadow: -2px 8px 63px -10px rgba(207,206,144,0.89);
@@ -20,8 +22,30 @@
     border-bottom: 3px solid gold;    
 }
 
+/* Fin estilos Header */
 
-/* Fin estilos header */
+/* Estilos Footer */
+
+.bg-footer{
+    background-color: #f8f9fa;
+}
+
+.footerBoxShadow{
+    box-shadow: -2px 8px 63px 10px rgba(207,206,144,0.89);
+}
+
+.listaSize{
+    font-size: 0.75rem;
+}
+
+.iconoSize{
+    font-size: 1.25rem;
+}
+
+/* Fin estilos Footer */
+
+/* Fin estilos globales */
+
 
 /* Estilos main INDEX */
 /* .main{
@@ -75,21 +99,6 @@
 }
 
 /* Fin estilos main INDEX */
-
-/* .footer{
-    >ul{
-        list-style-type: none;
-        >li{
-            >a{
-                color: whitesmoke;
-                text-decoration: none;
-            }
-        }
-    }
-    >small{
-        color: whitesmoke;
-    }
-} */
 
 /* Fin estilos Index */
 
