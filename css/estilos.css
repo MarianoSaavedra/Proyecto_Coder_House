@@ -17,7 +17,7 @@
     box-shadow: -2px 8px 63px -10px rgba(207,206,144,0.89);
 }
 
-.active{
+.linkactive{
     font-weight: bolder;
     border-bottom: 3px solid gold;    
 }
@@ -46,124 +46,92 @@
 
 /* Fin estilos globales */
 
+/* Inicio estilos MAIN index */
 
-/* Estilos main INDEX */
-/* .main{
-    background-color: whitesmoke;
-    .sectionUno{
-        >h1{
-            height: 95vh;
-            font-size: 5rem;
-        }
-    }
-    .sectionDos{
-        >h2{
-            font-size: 3.5rem;
-            font-weight: bolder;
-        }
-        >a img{
-            box-shadow: -2px 8px 25px -10px rgba(0, 0, 0, 0.89);
-        }  
-    }
-    .sectionTres{
-        >h2{
-            font-size: 3.5rem;
-            font-weight: bolder;
-        }
-        >h3{
-            font-size: 3rem;
-        }
-        >article div h2{
-            font-size: 1.5rem;                                   
-        }
-        >article div ul{
-            column-count: 2;
-            text-align: initial;
-            line-height: 2rem;
-        }
-    }
-    .sectionCuatro{
-        >h2{
-            font-size: 3.5rem;
-            font-weight: bolder;
-        }
-        >form div{
-            >[type="reset"]{
-                background-color: rgba(150, 14, 14, 0.687);
-            }
-            >[type="submit"]{
-                background-color: rgba(31, 235, 59, 0.744);
-            }  
-        } 
-    }
+.sectionUno{
+    background-image: url(../assets/img/fondoindex2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    opacity: 0.9;
 }
 
-/* Fin estilos main INDEX */
-
-/* Fin estilos Index */
-
-/* Inicio estilos Productos */
-
-/* .h1_Productos{
-    font-size: 4rem;
+.sectionUnoDivUno, .sectionUnoDivDos{
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
 }
 
-.carruselVisible{
+.tituloPrincipal, .tituloSecundario{
+    font-size: 3rem;
+}
+
+.textoSecundario{
+    width: 75%;
+    font-size: 0.80rem;
+}
+
+.sectionDos{
+    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
+}
+
+.displayGaleria{
     display: none;
 }
 
-/* Fin estilos Productos */
 
-/* Inicio estilos Contacto */
 
-/* .contactoBotonLimpiar{
-    background-color: rgba(212, 53, 53, 0.509);
-}
-
-.contactoBotonEnviar{
-    background-color: rgba(31, 235, 59, 0.744);
-}  
-
-/* Fin estilos Contacto */
-
-/* @media (min-width: 768px){
-    .main{
-        .sectionTres{
-            >article div ul{
-                column-count: 1;
-                text-align: justify;
-            }
-        } */
-    /* } 
-        
-}  */
-
-/* @media (min-width: 1200px) {
-    .main{
-        .sectionUno{
-            >h1{
-                height: 50vh;
-            }
-        }
-        .sectionDos{
-            >a{
-                gap: 3rem !important;
-                >img{
-                    box-shadow: initial;
-                    border: 3px solid rgba(181, 160, 40, 0.619) !important;
-                }
-    
-            }
-        }
-    } */
-    /* .sectionProductosVisible{
-        display: none;
-    }
-    .carruselVisible{
-        display: flex;
-        height: 70vh;
-    }
-    .historiaTitulo .contactoTitulo .recetasTitulo{
+@media screen and (min-width: 450px){
+    .tituloPrincipal{
         font-size: 5rem;
     }
-} */
+    .textoPrincipal{
+        font-size: 2rem;
+    }
+    .imagenCarrusel-md{
+        width: 25% !important;     
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    .tituloPrincipal{
+        font-size: 5rem;
+    }
+    .textoPrincipal{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .tituloPrincipal{
+        font-size: 4rem;
+    }
+    .textoPrincipal{
+        font-size: 1.5rem;
+        margin: 0 auto  ;
+        width: 75%;
+    }
+    .displayCarrusel{
+        display: none;
+    }
+    .displayGaleria{
+        display: flex;
+    }
+    .textoSecundario{
+        font-size: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .tituloPrincipal{
+        font-size: 6rem;
+    }
+    .textoPrincipal{
+        font-size: 2rem;
+        margin: 0 auto  ;
+        width: 75%;
+    }
+    .textoSecundario{
+        font-size: 1.5rem;
+    }
+}

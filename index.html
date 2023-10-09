@@ -26,7 +26,7 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav align-items-center">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                                    <a class="nav-link active linkactive" aria-current="page" href="#">Inicio</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link noActive" href="./pages/productos.html">Productos</a>
@@ -52,25 +52,156 @@
                 3ra section, Dos articulos con recetas y una imagen ilustrativa. Boton a la pagina /recetas
                 4ta section, Formulario de trabajo.
             -->
-            <main class="row main">
-                <section class="col-12 sectionUno">
-                    <h1 class="row text-center align-content-center"><span class="col-12">El Sabor</span> <span class="col-12">de la</span> <span class="col-12">Tradición</span></h1>
+            <main class="row">
+                <section class="container-fluid min-vh-100 sectionUno">
+                    <div class="row align-content-end h-50 sectionUnoDivUno">
+                        <h1 class="text-center tituloPrincipal">El Sabor de la Tradición</h1>
+                    </div>
+                    <div class="row align-content-start h-50 text-center sectionUnoDivDos">
+                        <p class="textoPrincipal">En Molinos Tradición, nos enorgullece ofrecerte productos alimenticios de calidad, elaborados con pasión y respeto por las tradiciones que nos definen.</p>
+                    </div>
                 </section>
 
-                <section class="col-sm-12 m-auto sectionDos py-5">
-                    <h2 class="col-12 text-center mb-5">Nuestros Productos</h2>
+                <section class="container-fluid min-vh-100 sectionDos">
+                    <div class="row align-content-end justify-content-center">
+                        <h2 class="text-center tituloSecundario">Nuestros Productos</h2>
+                        <p class="text-center textoSecundario">Explora nuestra amplia gama de productos, desde harinas de trigo de primera calidad hasta deliciosas pastas artesanales y panificados frescos. Cada producto es el resultado de años de experiencia y amor por la buena comida.</p>
+                    </div>
+                    <div class="row align-content-end justify-content-center displayCarrusel">
+                        <div id="carouselExampleCaptions" class="carousel slide my-5" data-bs-ride="carousel">
+                            <h3 class="text-center fst-italic">Salsas</h3>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/img/pesto.png" class="d-block w-50 m-auto imagenCarrusel-md" alt="Pesto">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/boloñesa.png" class="d-block w-50 m-auto imagenCarrusel-md" alt="Boloñesa">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/carbonara.png" class="d-block w-50 m-auto imagenCarrusel-md" alt="Carbonara">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
 
-                    <a href="./pages/productos.html" class="row  justify-content-center gap-4">
-                        <img src="./assets/img/Aceite.png" alt="Aceite Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
-                        <img src="./assets/img/Fideos.png" alt="Fideos Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
-                        <img src="./assets/img/Harina.png" alt="Harina Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
-                        <img src="./assets/img/PanLactal.png" alt="Pan Lactal Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
-                        <img src="./assets/img/PanRallado.png" alt="Pan Rallado Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
-                        <img src="./assets/img/Tallarines.png" alt="Tallarines Molinos" class="col-5 col-md-4 col-lg-3 col-xl-1 mb-5 border border-1 rounded-circle">
-                    </a>
+                        <div id="carouselExampleCaptions2" class="carousel slide my-5 displayCarrusel" data-bs-ride="carousel">
+                            <h3 class="text-center fst-italic">Harinas</h3>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/img/bizcochos.png" class="d-block w-50 m-auto imagenCarrusel-md" alt="Harina para Bizcochos">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/sinGluten.png" class="d-block w-50 m-auto imagenCarrusel-md" alt="Harina sin Gluten">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/reposteria.png" class="d-block w-50 m-auto imagenCarrusel-md" alt="Harina Repostera">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide="next">
+                                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+
+                        <div id="carouselExampleCaptions3" class="carousel slide my-5 displayCarrusel" data-bs-ride="carousel">
+                            <h3 class="text-center fst-italic">Pastas</h3>
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="./assets/img/canelones.png" class="d-block w-50 m-auto imagenCarrusel-md" alt="Canelones">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/integrales.png" class="d-block w-50 m-auto imagenCarrusel-md" alt="Fideos Integrales">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="./assets/img/noquis.png" class="d-block w-50 m-auto imagenCarrusel-md" alt="Ñoquis">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions3" data-bs-slide="next">
+                                <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row align-content-end justify-content-around displayGaleria">
+                        <div class="row justify-content-around my-5">
+                            <h3 class="text-center fst-italic">Salsas</h3>
+                            <img src="./assets/img/pesto.png" class="col-lg-2" alt="Pesto">
+                            <img src="./assets/img/boloñesa.png" class="col-lg-2" alt="Boloñesa">
+                            <img src="./assets/img/carbonara.png" class="col-lg-2" alt="Carbonara">
+                            <img src="./assets/img/napolitana.png" class="col-lg-2" alt="Napolitana">
+                            <img src="./assets/img/superBoloñesa.png" class="col-lg-2" alt="Super Boloñesa">
+                        </div>
+                        <div class="row justify-content-around my-5">
+                            <h3 class="text-center fst-italic">Harinas</h3>
+                            <img src="./assets/img/bizcochos.png" class="col-lg-2" alt="Harina para Bizcochos">
+                            <img src="./assets/img/fritosyRebozados.png" class="col-lg-2" alt="Harina para Fritar y Rebozar">
+                            <img src="./assets/img/integrales.png" class="col-lg-2" alt="Harina Integral">
+                            <img src="./assets/img/sinGluten.png" class="col-lg-2" alt="Harina sin Gluten">
+                            <img src="./assets/img/reposteria.png" class="col-lg-2" alt="Harina para Reposteria">
+                        </div>
+                        <div class="row justify-content-around my-5">
+                            <h3 class="text-center fst-italic">Pastas</h3>
+                            <img src="./assets/img/canelones.png" class="col-lg-2" alt="Canelones">
+                            <img src="./assets/img/lasaña.png" class="col-lg-2" alt="Lasaña">
+                            <img src="./assets/img/noquis.png" class="col-lg-2" alt="Ñoquis">
+                            <img src="./assets/img/fideos.png" class="col-lg-2" alt="Fideos">
+                            <img src="./assets/img/fetuccine.png" class="col-lg-2" alt="Fetuccine">
+                        </div>
+                    </div>
                 </section>
+                
 
-                <section class="col-sm-12 sectionTres text-center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <section class="col-sm-12 sectionTres text-center ">
                     <h2>Nuestras Recetas</h2>
                     
                     <h3>Saladas</h3>
@@ -119,7 +250,7 @@
                     </article>
                 </section>
 
-                <section class="col-sm-12 col-lg-8 m-auto sectionCuatro">
+                <section class="col-sm-12 col-lg-8 m-auto sectionCuatro ">
                     <h2 class="text-center">Trabaja con Nosotros</h2>
 
                     <form action="./pages/404.html" class="row w-50 m-auto text-center gap-2 py-5">
@@ -147,6 +278,7 @@
                         </div>
                     </form>
                 </section>
+
             </main>
             <!-- [Footer] Informacion de redes sociales, contenido, contacto y derechos -->
             <footer class="row footerBoxShadow">
