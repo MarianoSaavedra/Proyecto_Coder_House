@@ -96,6 +96,18 @@
     display: none;
 }
 
+.ingredientes{
+    list-style: none;
+}
+
+.botonLimpiar{
+    background-color: #ff3737;
+}
+
+.botonEnviar{
+    background-color: rgba(69, 218, 69, 0.753);
+}
+
 @media screen and (min-width: 450px){
     .tituloPrincipal{
         font-size: 5rem;
@@ -136,6 +148,9 @@
     .textoSecundario{
         font-size: 1.25rem;
     }
+    .imagenGaleria:hover{
+        transform: scale(1.2);
+    }
 }
 
 @media screen and (min-width: 1920px){
@@ -155,5 +170,8 @@
     }
     .listaProcedimientos{
         display: flex;
+    }
+    .youtubeVideo{
+        height: 400px;
     }
 }
