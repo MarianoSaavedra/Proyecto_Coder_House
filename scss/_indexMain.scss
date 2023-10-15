@@ -1,0 +1,131 @@
+main{
+    .sectionUno{
+        background-image: url(../assets/img/fondoindex2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        object-fit: cover;
+        opacity: 0.9;
+        box-shadow: -2px 8px 63px -10px rgba(207,206,144,0.89);
+        .sectionUnoDivUno{
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+            .tituloPrincipal{
+                font-size: 3rem;
+            }
+        }
+        .sectionUnoDivDos{
+            color: rgb(0, 0, 0);
+            font-weight: bolder;
+        }
+    }
+    .sectionDos{
+        div{
+            .tituloSecundario{
+                font-size: 3rem;
+            }
+            .textoSecundario{
+                font-size: 0.80rem;
+            }
+        }
+    }
+    .sectionTres{
+        div{
+            .tituloSecundario{
+                font-size: 3rem;
+            }
+            .textoSecundario{
+                font-size: 0.80rem;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 450px){
+    main{
+        .sectionUno{
+            .sectionUnoDivUno{
+                .tituloPrincipal{
+                    font-size: 5rem;
+                }
+            }
+            .sectionUnoDivDos{
+                .textoPrincipal{
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    .imagenCarrusel-md{
+        width: 25% !important;     
+    }
+}
+
+@media screen and (min-width: 1024px){
+    main{
+        .sectionUno{
+            .sectionUnoDivUno{
+                .tituloPrincipal{
+                    font-size: 4rem;
+                }
+            }
+            .sectionUnoDivDos{
+                .textoPrincipal{
+                    font-size: 1.5rem;
+                    margin: 0 auto  ;
+                    width: 75%;
+                }
+            }
+        }
+        .sectionTres{
+            div{
+                .textoSecundario{
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+    .imagenCarrusel-md{
+        width: 25% !important;     
+    }
+}
+
+@media screen and (min-width: 1920px){
+    main{
+        .sectionUno{
+            .sectionUnoDivUno{
+                .tituloPrincipal{
+                    font-size: 6rem;
+                }
+            }
+            .sectionUnoDivDos{
+                .textoPrincipal{
+                    font-size: 2rem;
+                }
+            }
+        }
+        .sectionDos{
+            div{
+                div{
+                    .descripcionProducto{
+                        font-size: 1.2rem;
+                    }
+                }
+            }
+        }
+
+
+        .sectionTres{
+            div{
+                .textoSecundario{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+    .imagenCarrusel-md{
+        width: 25% !important;     
+    }
+}
+
+
