@@ -10,7 +10,7 @@ main{
             color: rgb(0, 0, 0);
             font-weight: bolder;
             .tituloPrincipal{
-                font-size: 3rem;
+              font-size: map-get($mapa-sizes,fuente-titulo);
             }
         }
         .sectionUnoDivDos{
@@ -21,20 +21,20 @@ main{
     .sectionDos{
         div{
             .tituloSecundario{
-                font-size: 3rem;
+                font-size: map-get($mapa-sizes,fuente-titulo);
             }
             .textoSecundario{
-                font-size: 0.80rem;
+                font-size: map-get($mapa-sizes,fuente-texto);
             }
         }
     }
     .sectionTres{
         div{
             .tituloSecundario{
-                font-size: 3rem;
+                font-size: map-get($mapa-sizes,fuente-titulo);
             }
             .textoSecundario{
-                font-size: 0.80rem;
+                font-size: map-get($mapa-sizes,fuente-texto);
             }
         }
     }

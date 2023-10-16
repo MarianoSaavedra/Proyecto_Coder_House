@@ -129,4 +129,9 @@ main .sectionTres div .textoSecundario {
   background-color: rgba(69, 218, 69, 0.753);
 }
 
+.flexible {
+  display: flex;
+  justify-content: center;
+}
+
 /*# sourceMappingURL=estilos.css.map */
