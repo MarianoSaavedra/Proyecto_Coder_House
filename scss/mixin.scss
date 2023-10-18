@@ -1,4 +1,6 @@
 @mixin contenedorflexible($alineacion){
     display: flex;
     justify-content: $alineacion;
+    align-items: $alineacion;
+    align-content: $alineacion;
 }

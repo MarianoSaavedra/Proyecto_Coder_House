@@ -4,6 +4,29 @@
         font-size: 0.75rem;
         .iconoSize{
             font-size: 1.25rem;
+            animation-name: hinchar;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease-in;
         }
+        li{
+            a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+    }
+}
+
+@keyframes hinchar{
+    0%{ 
+        transform: translateY(0);
+    }
+    50%{ 
+        transform: translatY(0px);
+        transform: scale(1.5);
+    }
+    100%{ 
+        transform: translateY(0px);
     }
 }

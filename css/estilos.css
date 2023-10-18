@@ -10,7 +10,6 @@
 
 body {
   font-family: "Young Serif", serif;
-  font-family: "Inknut Antiqua", serif;
 }
 
 header .headerBoxShadow {
@@ -29,10 +28,30 @@ header .headerBoxShadow div div ul li .linkactive {
 }
 .footerBoxShadow .listaSize .iconoSize {
   font-size: 1.25rem;
+  animation-name: hinchar;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+}
+.footerBoxShadow .listaSize li a {
+  text-decoration: none;
+  color: black;
 }
 
+@keyframes hinchar {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translatY(0px);
+    transform: scale(1.5);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 main .sectionUno {
-  background-image: url(../assets/img/fondoindex2.jpg);
+  background-image: url(../assets/img/fondoindex.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -111,11 +130,24 @@ main .sectionTres div .textoSecundario {
   list-style: none;
 }
 
+.recetaFondo {
+  background-image: linear-gradient(to right bottom, #95c1c8, #9fc4c2, #aac6be, #b6c7bd, #c0c9bf, #c7cdc5, #cdd2cb, #d3d6d1, #dadeda, #e1e6e3, #e8eeec, #f0f6f5);
+  border-radius: 1%;
+}
+.recetaFondo div iframe {
+  border-radius: 10%;
+}
+
 @media screen and (min-width: 1920px) {
   .youtubeVideo {
     height: 400px;
   }
 }
+.cardPropia {
+  background-image: linear-gradient(to right bottom, #95c1c8, #9fc4c2, #aac6be, #b6c7bd, #c0c9bf, #c7cdc5, #cdd2cb, #d3d6d1, #dadeda, #e1e6e3, #e8eeec, #f0f6f5);
+  border-radius: 10%;
+}
+
 @media screen and (min-width: 1024px) {
   .imagenGaleria:hover {
     transform: scale(1.2);
@@ -129,9 +161,16 @@ main .sectionTres div .textoSecundario {
   background-color: rgba(69, 218, 69, 0.753);
 }
 
+.filterImg {
+  filter: drop-shadow(2px 4px 6px black);
+  border-radius: 10%;
+}
+
 .flexible {
   display: flex;
   justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
