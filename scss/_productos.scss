@@ -1,6 +1,9 @@
 .cardPropia{
     background-image: linear-gradient(to right bottom, #95c1c8, #9fc4c2, #aac6be, #b6c7bd, #c0c9bf, #c7cdc5, #cdd2cb, #d3d6d1, #dadeda, #e1e6e3, #e8eeec, #f0f6f5);
     border-radius: 10%;
+    img{
+        object-fit: none;
+    }
 }
 
 @media screen and (min-width: 1024px){

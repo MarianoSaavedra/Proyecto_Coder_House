@@ -50,7 +50,7 @@ header .headerBoxShadow div div ul li .linkactive {
     transform: translateY(0px);
   }
 }
-main .sectionUno {
+.mainIndex .sectionUno {
   background-image: url(../assets/img/fondoindex.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -58,35 +58,39 @@ main .sectionUno {
   opacity: 0.9;
   box-shadow: -2px 8px 63px -10px rgba(207, 206, 144, 0.89);
 }
-main .sectionUno .sectionUnoDivUno {
+.mainIndex .sectionUno .sectionUnoDivUno {
   color: rgb(0, 0, 0);
   font-weight: bolder;
 }
-main .sectionUno .sectionUnoDivUno .tituloPrincipal {
+.mainIndex .sectionUno .sectionUnoDivUno .tituloPrincipal {
+  filter: drop-shadow(1px 1px 2px white);
   font-size: 3rem;
 }
-main .sectionUno .sectionUnoDivDos {
+.mainIndex .sectionUno .sectionUnoDivDos {
   color: rgb(0, 0, 0);
   font-weight: bolder;
 }
-main .sectionDos div .tituloSecundario {
+.mainIndex .sectionUno .sectionUnoDivDos p {
+  filter: drop-shadow(1px 1px 2px white);
+}
+.mainIndex .sectionDos div .tituloSecundario {
   font-size: 3rem;
 }
-main .sectionDos div .textoSecundario {
+.mainIndex .sectionDos div .textoSecundario {
   font-size: 0.8rem;
 }
-main .sectionTres div .tituloSecundario {
+.mainIndex .sectionTres div .tituloSecundario {
   font-size: 3rem;
 }
-main .sectionTres div .textoSecundario {
+.mainIndex .sectionTres div .textoSecundario {
   font-size: 0.8rem;
 }
 
 @media screen and (min-width: 450px) {
-  main .sectionUno .sectionUnoDivUno .tituloPrincipal {
+  .mainIndex .sectionUno .sectionUnoDivUno .tituloPrincipal {
     font-size: 5rem;
   }
-  main .sectionUno .sectionUnoDivDos .textoPrincipal {
+  .mainIndex .sectionUno .sectionUnoDivDos .textoPrincipal {
     font-size: 2rem;
   }
   .imagenCarrusel-md {
@@ -94,58 +98,60 @@ main .sectionTres div .textoSecundario {
   }
 }
 @media screen and (min-width: 1024px) {
-  main .sectionUno .sectionUnoDivUno .tituloPrincipal {
+  .mainIndex .sectionUno .sectionUnoDivUno .tituloPrincipal {
     font-size: 4rem;
   }
-  main .sectionUno .sectionUnoDivDos .textoPrincipal {
+  .mainIndex .sectionUno .sectionUnoDivDos .textoPrincipal {
     font-size: 1.5rem;
     margin: 0 auto;
     width: 75%;
   }
-  main .sectionTres div .textoSecundario {
-    font-size: 1.25rem;
-  }
-  .imagenCarrusel-md {
+  .mainIndex .sectionDos .imagenCarrusel-md {
     width: 25% !important;
+  }
+  .mainIndex .sectionTres div .textoSecundario {
+    font-size: 1.25rem;
   }
 }
 @media screen and (min-width: 1920px) {
-  main .sectionUno .sectionUnoDivUno .tituloPrincipal {
+  .mainIndex .sectionUno .sectionUnoDivUno .tituloPrincipal {
     font-size: 6rem;
   }
-  main .sectionUno .sectionUnoDivDos .textoPrincipal {
+  .mainIndex .sectionUno .sectionUnoDivDos .textoPrincipal {
     font-size: 2rem;
   }
-  main .sectionDos div div .descripcionProducto {
-    font-size: 1.2rem;
-  }
-  main .sectionTres div .textoSecundario {
-    font-size: 1.5rem;
-  }
-  .imagenCarrusel-md {
+  .mainIndex .sectionDos .imagenCarrusel-md {
     width: 25% !important;
   }
+  .mainIndex .sectionDos div div .descripcionProducto {
+    font-size: 1.2rem;
+  }
+  .mainIndex .sectionTres div .textoSecundario {
+    font-size: 1.5rem;
+  }
 }
-.ingredientes {
-  list-style: none;
-}
-
-.recetaFondo {
+.mainRecetas section .recetaFondo {
   background-image: linear-gradient(to right bottom, #95c1c8, #9fc4c2, #aac6be, #b6c7bd, #c0c9bf, #c7cdc5, #cdd2cb, #d3d6d1, #dadeda, #e1e6e3, #e8eeec, #f0f6f5);
   border-radius: 1%;
 }
-.recetaFondo div iframe {
+.mainRecetas section .recetaFondo .ingredientes {
+  list-style: none;
+}
+.mainRecetas section .recetaFondo .youtubeVideo iframe {
   border-radius: 10%;
 }
 
 @media screen and (min-width: 1920px) {
-  .youtubeVideo {
+  .mainRecetas section .recetaFondo .youtubeVideo {
     height: 400px;
   }
 }
 .cardPropia {
   background-image: linear-gradient(to right bottom, #95c1c8, #9fc4c2, #aac6be, #b6c7bd, #c0c9bf, #c7cdc5, #cdd2cb, #d3d6d1, #dadeda, #e1e6e3, #e8eeec, #f0f6f5);
   border-radius: 10%;
+}
+.cardPropia img {
+  object-fit: none;
 }
 
 @media screen and (min-width: 1024px) {
