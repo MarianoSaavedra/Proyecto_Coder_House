@@ -42,6 +42,9 @@
             }
         }
     }
+    .textoNegrita{
+        font-weight: bold;
+    }
 }
 
 
@@ -111,13 +114,18 @@
             }
         }
         .sectionDos{
+            div{
+                .textoSecundario{
+                    font-size: 1.5rem;
+                }
+            }
             .imagenCarrusel-md{
                 width: 25% !important;     
             }
             div{
                 div{
                     .descripcionProducto{
-                        font-size: 1.2rem;
+                        font-size: 1.3rem;
                     }
                 }
             }
@@ -126,6 +134,9 @@
             div{
                 .textoSecundario{
                     font-size: 1.5rem;
+                }
+                .textoReceta{
+                    font-size: map-get($mapa-sizes,fuente-receta);
                 }
             }
         }

@@ -24,7 +24,7 @@ header .headerBoxShadow div div ul li .linkactive {
   box-shadow: -2px 8px 63px 10px rgba(207, 206, 144, 0.89);
 }
 .footerBoxShadow .listaSize {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 .footerBoxShadow .listaSize .iconoSize {
   font-size: 1.25rem;
@@ -77,13 +77,16 @@ header .headerBoxShadow div div ul li .linkactive {
   font-size: 3rem;
 }
 .mainIndex .sectionDos div .textoSecundario {
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .mainIndex .sectionTres div .tituloSecundario {
   font-size: 3rem;
 }
 .mainIndex .sectionTres div .textoSecundario {
-  font-size: 0.8rem;
+  font-size: 1rem;
+}
+.mainIndex .textoNegrita {
+  font-weight: bold;
 }
 
 @media screen and (min-width: 450px) {
@@ -120,14 +123,20 @@ header .headerBoxShadow div div ul li .linkactive {
   .mainIndex .sectionUno .sectionUnoDivDos .textoPrincipal {
     font-size: 2rem;
   }
+  .mainIndex .sectionDos div .textoSecundario {
+    font-size: 1.5rem;
+  }
   .mainIndex .sectionDos .imagenCarrusel-md {
     width: 25% !important;
   }
   .mainIndex .sectionDos div div .descripcionProducto {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
   }
   .mainIndex .sectionTres div .textoSecundario {
     font-size: 1.5rem;
+  }
+  .mainIndex .sectionTres div .textoReceta {
+    font-size: 1.2rem;
   }
 }
 .mainRecetas section .recetaFondo {
@@ -172,6 +181,15 @@ header .headerBoxShadow div div ul li .linkactive {
   border-radius: 10%;
 }
 
+.textoNegrita {
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1920px) {
+  .textoHistoria {
+    font-size: 1.1rem;
+  }
+}
 .flexible {
   display: flex;
   justify-content: center;
